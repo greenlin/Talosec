@@ -1,0 +1,16 @@
+{
+  "summary": {
+    "title": "Talosec",
+    "owner": "Puti"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "Hardware Layer",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ]
+  }
+}
