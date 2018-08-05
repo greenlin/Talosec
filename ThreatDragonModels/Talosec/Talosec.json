@@ -13,17 +13,17 @@
         "diagramJson": {
           "cells": [
             {
-              "type": "tm.Process",
+              "type": "tm.Actor",
               "size": {
-                "width": 100,
-                "height": 100
+                "width": 160,
+                "height": 80
               },
               "position": {
                 "x": 50,
                 "y": 50
               },
               "angle": 0,
-              "id": "cd4b1dbe-b1d8-425a-8744-100ec82bf63c",
+              "id": "e3e1f796-e802-4c11-9821-feeca7fb8b0b",
               "z": 1,
               "hasOpenThreats": false,
               "attrs": {
@@ -31,17 +31,145 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "process 0"
+                  "text": "User"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 78,
+                "y": 220
+              },
+              "angle": 0,
+              "id": "021ec13c-4f03-44be-ab22-bdb5e4315095",
+              "z": 2,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Hijack user input signal",
+                  "type": "Tampering"
+                }
+              ],
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Main MCU"
+                },
+                ".element-text": {
+                  "class": "element-text hasOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 87,
+                "y": 355
+              },
+              "angle": 0,
+              "id": "e21480ab-1eb8-4a00-8126-ceaa0fc08fb4",
+              "z": 3,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "process 2"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 89,
+                "y": 544
+              },
+              "angle": 0,
+              "id": "73fc91b3-be4c-49e2-9a45-c82cbf388a67",
+              "z": 4,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "process 3"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "e3e1f796-e802-4c11-9821-feeca7fb8b0b"
+              },
+              "target": {
+                "id": "021ec13c-4f03-44be-ab22-bdb5e4315095"
+              },
+              "vertices": [
+                {
+                  "x": 71,
+                  "y": 171
+                }
+              ],
+              "id": "cfe48c89-8151-46fa-8fb3-c5136fef6e83",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.5344381707436319,
+                    "offset": 35.98841887677554
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Input Signal",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 5,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
                 }
               }
             }
           ]
         },
         "size": {
-          "height": 590,
+          "height": 1279,
           "width": 790
         }
       }
