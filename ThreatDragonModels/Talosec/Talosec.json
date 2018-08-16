@@ -481,10 +481,13 @@
               "id": "54ff454d-cb84-4fa5-864a-71ee13e85bac",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.5436464904187241,
+                    "offset": -3.5374302193522453
+                  },
                   "attrs": {
                     "text": {
-                      "text": "flow 15",
+                      "text": "Package output",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -520,10 +523,13 @@
               "id": "e1064416-0632-4b8a-8b66-2de11f41b719",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.27861808740793526,
+                    "offset": 8.809334739809856
+                  },
                   "attrs": {
                     "text": {
-                      "text": "flow 16",
+                      "text": "Package Input",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -601,7 +607,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 18",
+                      "text": "Recv Data",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -802,7 +808,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 23",
+                      "text": "Send Data",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -919,7 +925,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 26",
+                      "text": "UI Display",
                       "font-weight": "400",
                       "font-size": "small"
                     }
