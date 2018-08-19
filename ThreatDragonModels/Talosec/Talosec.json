@@ -482,8 +482,8 @@
               "labels": [
                 {
                   "position": {
-                    "distance": 0.5436464904187241,
-                    "offset": -3.5374302193522453
+                    "distance": 0.5708288149396604,
+                    "offset": -1.1394983981736004
                   },
                   "attrs": {
                     "text": {
@@ -847,7 +847,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 24",
+                      "text": "Store Data",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -886,7 +886,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 25",
+                      "text": "Fetch Data",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -964,7 +964,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 27",
+                      "text": "Request",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1003,7 +1003,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 28",
+                      "text": "Response",
                       "font-weight": "400",
                       "font-size": "small"
                     }
