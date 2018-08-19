@@ -727,7 +727,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 22",
+                      "text": "Send Cmd",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -769,7 +769,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "flow 23",
+                      "text": "Recv Result",
                       "font-weight": "400",
                       "font-size": "small"
                     }
