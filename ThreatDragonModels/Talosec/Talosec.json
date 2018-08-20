@@ -76,6 +76,14 @@
                   "title": "Hijack display signal",
                   "description": "劫持显示信号，配合其他攻击迷惑用户做出错误操作。",
                   "mitigation": "防硬件篡改封装。"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Replace firmware",
+                  "type": "Tampering",
+                  "description": "替换出厂固件，可以实现各种攻击策略",
+                  "mitigation": "固件的交叉认证，通过spi接口直接读取程序flash区域进行hash签名验证。"
                 }
               ],
               "attrs": {
