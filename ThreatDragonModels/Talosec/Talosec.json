@@ -51,10 +51,10 @@
               "angle": 0,
               "id": "021ec13c-4f03-44be-ab22-bdb5e4315095",
               "z": 2,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "threats": [
                 {
-                  "status": "Mitigated",
+                  "status": "Open",
                   "severity": "Medium",
                   "title": "Hijack user input io signal",
                   "type": "Tampering",
@@ -62,23 +62,31 @@
                   "mitigation": "对硬件进行防篡改封装。提示用户仔细对比和官方硬件实物图是否有差异。"
                 },
                 {
-                  "status": "Mitigated",
+                  "status": "Open",
                   "severity": "Medium",
                   "title": "Eavesdrop user input",
                   "type": "Information disclosure",
                   "description": "监听用户输入，可以获得用户密码等信息。",
                   "mitigation": "对输入方式加密混淆。对硬件进行防篡改封装。"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "title": "Hijack display signal",
+                  "description": "劫持显示信号，配合其他攻击迷惑用户做出错误操作。",
+                  "mitigation": "防硬件篡改封装。"
                 }
               ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Main MCU"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
