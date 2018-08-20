@@ -273,16 +273,26 @@
               "angle": 0,
               "id": "763cf1c7-a0a1-493f-ad11-7deb4a4f7732",
               "z": 8,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Chip invasion attacks",
+                  "type": "Information disclosure",
+                  "description": "侵入式或半侵入式攻击，目的是提取存储的数据。",
+                  "mitigation": "数据加密存储，采用高安全级别的安全芯片。"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Key Storage"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
