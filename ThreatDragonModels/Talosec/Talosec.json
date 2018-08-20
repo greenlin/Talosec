@@ -92,6 +92,14 @@
                   "type": "Tampering",
                   "description": "劫持SPI接口，篡改指令调用或返回结果。",
                   "mitigation": "对SPI调用过程加密。"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Hijack BLE UART",
+                  "type": "Tampering",
+                  "description": "劫持MCU到BLE芯片的串口通讯",
+                  "mitigation": "通讯加密"
                 }
               ],
               "attrs": {
