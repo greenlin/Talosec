@@ -60,6 +60,14 @@
                   "type": "Tampering",
                   "description": "劫持用户输入，需要对硬件电路篡改，配合其他攻击可以实现自动篡改交易等。",
                   "mitigation": "对硬件进行防篡改封装。提示用户仔细对比和官方硬件实物图是否有差异。"
+                },
+                {
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "title": "Eavesdrop user input",
+                  "type": "Information disclosure",
+                  "description": "监听用户输入，可以获得用户密码等信息。",
+                  "mitigation": "对输入方式加密混淆。对硬件进行防篡改封装。"
                 }
               ],
               "attrs": {
