@@ -84,6 +84,14 @@
                   "type": "Tampering",
                   "description": "替换出厂固件，可以实现各种攻击策略",
                   "mitigation": "固件的交叉认证，通过spi接口直接读取程序flash区域进行hash签名验证。"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Hijack SPI interface",
+                  "type": "Tampering",
+                  "description": "劫持SPI接口，篡改指令调用或返回结果。",
+                  "mitigation": "对SPI调用过程加密。"
                 }
               ],
               "attrs": {
